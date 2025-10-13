@@ -1,0 +1,30 @@
+# KiCad temporary files
+*.bak
+*.bck
+*-bak
+*-cache.lib
+*-rescue.lib
+*-save.pro
+*-save.kicad_pcb
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.kicad_*
+fp-info-cache
+
+# Backup folders
+*-backups/
+
+# macOS
+.DS_Store
+
+# KiCad local settings (user-specific)
+*.kicad_prl
+
+# Build outputs (keep gerber for releases)
+# gerber/
+
+# Zipped files (can be regenerated)
+*.zip

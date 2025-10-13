@@ -1,0 +1,12 @@
+Plotted to '/Users/ianharris/Tech Projects/Moisture Sensor/MoistureSensor1/MoistureSensor1-F_Cu.gbr'.
+Plotted to '/Users/ianharris/Tech Projects/Moisture Sensor/MoistureSensor1/MoistureSensor1-B_Cu.gbr'.
+Plotted to '/Users/ianharris/Tech Projects/Moisture Sensor/MoistureSensor1/MoistureSensor1-F_Paste.gbr'.
+Plotted to '/Users/ianharris/Tech Projects/Moisture Sensor/MoistureSensor1/MoistureSensor1-B_Paste.gbr'.
+Plotted to '/Users/ianharris/Tech Projects/Moisture Sensor/MoistureSensor1/MoistureSensor1-F_Silkscreen.gbr'.
+Plotted to '/Users/ianharris/Tech Projects/Moisture Sensor/MoistureSensor1/MoistureSensor1-B_Silkscreen.gbr'.
+Plotted to '/Users/ianharris/Tech Projects/Moisture Sensor/MoistureSensor1/MoistureSensor1-F_Mask.gbr'.
+Plotted to '/Users/ianharris/Tech Projects/Moisture Sensor/MoistureSensor1/MoistureSensor1-B_Mask.gbr'.
+Plotted to '/Users/ianharris/Tech Projects/Moisture Sensor/MoistureSensor1/MoistureSensor1-Edge_Cuts.gbr'.
+Created Gerber job file '/Users/ianharris/Tech Projects/Moisture Sensor/MoistureSensor1/MoistureSensor1-job.gbrjob'.
+Info: Done.
+Info: Done.
