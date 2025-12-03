@@ -85,7 +85,9 @@ Gerber files for PCB fabrication are included in the `gerber/` directory. These 
 
 ## License
 
-[Specify your license here]
+This hardware design is licensed under [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/).
+
+You are free to share and adapt this work, provided you give appropriate credit and distribute your contributions under the same license.
 
 ## Author
 
