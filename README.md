@@ -10,7 +10,7 @@ The board uses an [SMX moisture sensor interface](https://www.emesystems.com/smx
 
 The ESP 32 firmware combines moisture sensor and soil temperature outputs to calculate soil tension values for use in irrigation systems.  The firmware can be configured with wifi credentials so the user can access the board's web server which will display sensor values.  The firmware can also be configured with mqtt message server credentials allowing the board to transmit sensor data in formatted json.
 
-![]()
+![Fully assembled]((Images/board_assembled.jpeg)
 
 ## Firmware
 
