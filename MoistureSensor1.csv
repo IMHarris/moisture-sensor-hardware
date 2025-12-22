@@ -1,17 +1,17 @@
-"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
-1;"R2,R1";"R_1206_3216Metric_Pad1.30x1.75mm_HandSolder";2;"10k";;;
-2;"C2,C5,C6,C8,C7,C1";"C_0805_2012Metric_Pad1.18x1.45mm_HandSolder";6;"0.1µF";;;
-3;"U3,U2";"SOT-23-6";2;"TPS27081ADDCR";;;
-4;"R8,R3,R13,R7,R4,R9,R10,R11,R12";"R_1206_3216Metric_Pad1.30x1.75mm_HandSolder";9;"4.7k";;;
-5;"SMX1";"PinSocket_1x06_P2.54mm_Vertical";1;"SMX Header";;;
-6;"U4";"DIP-16_W7.62mm_Socket";1;"74HC595";;;
-7;"U6,U5,U7";"DIP-14_W7.62mm";3;"CD4066BE";;;
-8;"";"c5f2482b-6cae-4589-8a9f-ca96de6d0741";1;"";;;
-9;"R6,R5";"R_1206_3216Metric_Pad1.30x1.75mm_HandSolder";2;"5.1k";;;
-10;"J2";"Molex_SL_171971-0010_1x10_P2.54mm_Vertical";1;"Expansion";;;
-11;"DPDT1";"DPDT Slide switch - CL-SB-22C-02";1;"SW_Slide_DPDT";;;
-12;"J1";"PHOENIX_1990067";1;"Screw_Terminal_01x08";;;
-13;"C4,C3";"CP_Radial_D5.0mm_P2.50mm";2;"10µF";;;
-14;"5v in1";"AMPHENOL_10164359-00011LF";1;"10164359-00011LF";;;
-15;"J3";"PHOENIX_1990106";1;"Screw_Terminal_01x12";;;
-16;"U1";"ESP32-DevKitC";1;"ESP32-DevKitC";;;
+"Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Footprint","Datasheet"
+"5v in1","1","10164359-00011LF","","","","Ians_Parts:AMPHENOL_10164359-00011LF",""
+"C1,C2,C5,C6,C7,C8","6","0.1µF","","","","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",""
+"C3,C4","2","10µF","","","","Capacitor_THT:CP_Radial_D5.0mm_P2.50mm","https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/YXJ.pdf,~"
+"DPDT1","1","SW_Slide_DPDT","","","","Ians_Parts:DPDT Slide switch - CL-SB-22C-02","https://www.nidec-components.com/e/catalog/switch/cl-sb.pdf"
+"H1,H2,H3,H4","4","MountingHole","","Excluded from BOM","","MountingHole:MountingHole_2.7mm_M2.5_ISO14580","~"
+"J1","1","Screw_Terminal_01x08","","","","Ians_Parts:PHOENIX_1990067","https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2515/COMBICON%20Spring-Cage%20PCB%20Term.%20Blocks.pdf"
+"J2","1","Expansion","","","","Connector_Molex:Molex_SL_171971-0010_1x10_P2.54mm_Vertical","https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/705/70543/705430042_sd.pdf?inline"
+"J3","1","Screw_Terminal_01x12","","","","Ians_Parts:PHOENIX_1990106","https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2515/COMBICON%20Spring-Cage%20PCB%20Term.%20Blocks.pdf"
+"R1,R2","2","10k","","","","Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",""
+"R3,R4,R7,R8,R9,R10,R11,R12,R13","9","4.7k","","","","Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",""
+"R5,R6","2","5.1k","","","","Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",""
+"SMX1","1","SMX Header","","","","Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical","~"
+"U1","1","ESP32-DevKitC","","","","PCM_Espressif:ESP32-DevKitC","https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32/hw-reference/esp32/get-started-devkitc.html"
+"U2,U3","2","TPS27081ADDCR","","","","Package_TO_SOT_SMD:SOT-23-6","https://www.ti.com/lit/ds/symlink/tps27081a.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1754869477035&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Ftps27081a"
+"U4","1","74HC595","","","","Package_DIP:DIP-16_W7.62mm_Socket","http://www.ti.com/lit/ds/symlink/sn74hc595.pdf"
+"U5,U6,U7","3","CD4066BE","","","","Package_DIP:DIP-14_W7.62mm","https://www.ti.com/lit/ds/symlink/cd4066b.pdf"
