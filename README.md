@@ -8,9 +8,11 @@ This repository contains the PCB design and schematics for a garden irrigation m
 
 The board uses an [SMX moisture sensor interface](https://www.emesystems.com/smx/main.html) board to interact with the sensors. This board transmits AC power to the sensors which substantially reduces mineral accumulation and extends the life of the sensors.
 
-The ESP 32 firmware combines moisture sensor and soil temperature outputs to calculate soil tension values for use in irrigation systems.  The firmware can be configured with wifi credentials so the user can access the board's web server which will display sensor values.  The firmware can also be configured with mqtt message server credentials allowing the board to transmit sensor data in formatted json.
+The ESP 32 firmware combines moisture sensor and soil temperature outputs to calculate soil tension values for use in irrigation systems.  The firmware can be configured with wifi credentials so the user can access the board's web server which will display sensor values.  The firmware can also be configured with mqtt message server credentials allowing the board to transmit sensor data in formatted json via wifi to your main irrigation controller.  I am using the [SIP controller](https://github.com/Dan-in-CA/SIP) for my main irrigation system.
 
-![Fully assembled]((Images/board_assembled.jpeg)
+![Fully assembled board](Images/board_assembled.jpeg)
+
+*Board fabrication done by [PCBWay](https://www.pcbway.com) whom I can't say enough good things about: excellent website, great communication, and outstanding quality.  KiCad plugin makes design file uploads super easy.
 
 ## Firmware
 
@@ -34,8 +36,8 @@ Firmware for this hardware is available in a separate repository:
 - 3.3V logic level
 
 ### Sensor Interfaces
-- **6x Moisture Sensor Channels**: Relay-controlled power, frequency input
-- **2x OneWire Buses**: For DS18B20 temperature sensors (long/short)
+- **6x Moisture Sensor Channels**: Relay-controlled power
+- **2x OneWire Buses**: For DS18B20 temperature sensors
 - **Expansion header**: Output to expand the number of moisture and temperature sensors.
 
 ### I/O
@@ -46,16 +48,16 @@ Firmware for this hardware is available in a separate repository:
 - **Status LED**: GPIO 2
 
 ### Power
-- 5V input via USB
+- 5V input via USB or terminal
 - 3.3V signal regulation for ESP32
-- Relay-switched 5V for moisture and temperature sensors
+- Relay-switched 5V outputs for moisture and temperature sensors
 
 ## Bill of Materials
 
 See `MoistureSensor1BOM.csv` for complete component list.
 
 Key components:
-- ESP32 DevKit module
+- ESP32 DevKit module.  I've used [this one](https://www.amazon.com/dp/B0D6BH4K9B?ref_=ppx_hzod_title_dt_b_fed_asin_title_0_0&th=1).
 - [SMX moisture sensor interface](https://www.emesystems.com/smx/main.html)
 - DS18B20 temperature sensors
 - Resistance-based moisture sensors (external)
@@ -64,21 +66,23 @@ Key components:
 ## PCB Specifications
 
 - **Layers**: 2-layer PCB
-- **Dimensions**: [Add dimensions]
-- **Connectors**: Screw terminals for sensors, USB C or screw terminals for power
+- **Dimensions**: 111x58mm
+- **Connectors**: Wire terminals for sensors, USB C or Wire terminals for power
 
 ## Manufacturing
 
 Gerber files for PCB fabrication are included in the `gerber/` directory. These can be uploaded to PCB manufacturers like:
-- PCBWay
+- [PCBWay](https://www.pcbway.com) (my favorite)
 
 ## Assembly Notes
 
 1. Solder ESP32 DevKit module (or use pin headers for socketing)
 2. Install relay modules
-3. Connect screw terminals for sensor interfaces
+3. Connect terminals for sensor interfaces
 4. Verify 3.3V and 5V power rails before powering ESP32
 5. Flash firmware from [moisture-sensor-esp32](https://github.com/IMHarris/moisture-sensor-esp32)
+
+![Board image](Images/board_unassembled.jpeg)
 
 ## Design Software
 
