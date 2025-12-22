@@ -12,7 +12,7 @@ The ESP 32 firmware combines moisture sensor and soil temperature outputs to cal
 
 ![Fully assembled board](Images/board_assembled.jpeg)
 
-*Board fabrication done by [PCBWay](https://www.pcbway.com) whom I can't say enough good things about: excellent website, great communication, and outstanding quality.  KiCad plugin makes design file uploads super easy.
+*Board fabrication done by [PCBWay](https://www.pcbway.com) whom I can't say enough good things about: excellent website, great communication, and outstanding quality.  Their KiCad plugin makes design file uploads super easy.
 
 ## Firmware
 
@@ -43,8 +43,8 @@ Firmware for this hardware is available in a separate repository:
 ### I/O
 - **Moisture Sensors**: 6 channels with relay control
 - **Frequency Input**: GPIO 21 (shared)
-- **OneWire Buses**: GPIO 13 (short), GPIO 14 (long)
-- **OneWire Relay Control**: GPIO 12 (short), GPIO 26 (long)
+- **OneWire Buses**: GPIO 13, GPIO 14
+- **OneWire Relay Control**: GPIO 12, GPIO 26
 - **Status LED**: GPIO 2
 
 ### Power
