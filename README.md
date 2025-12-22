@@ -4,9 +4,9 @@ KiCad hardware design for ESP32-based soil moisture monitoring system.
 
 ## Overview
 
-This repository contains the PCB design and schematics for a garden irrigation moisture sensor system. The board interfaces with resistance-based moisture sensors ([I recommend Irrometer Watermark Sensors](https://www.irrometer.com/sensors.html)) and DS18B20 temperature sensors.
+This repository contains the PCB design and schematics for an irrigation moisture sensor system. The board interfaces with resistance-based moisture sensors ([I recommend Irrometer Watermark Sensors](https://www.irrometer.com/sensors.html)) and DS18B20 temperature sensors.
 
-The board uses an [SMX moisture sensor interface](https://www.emesystems.com/smx/main.html) board to interact with the sensors. This board transmits AC power to the sensors which substantially reduces mineral accumulation and extends the life of the sensors.
+The board uses an [SMX moisture sensor interface](https://www.emesystems.com/smx/main.html) board to interact with up to 6 moisture sensors. The SMX board transmits AC power to the sensors which substantially reduces mineral accumulation and extends the life of the sensors.  Because moisture sensors are sensitive to temperature, the board also can take in data from DS18B20 temperature sensors through 2 available 1-Wire bus inputs.
 
 The ESP 32 firmware combines moisture sensor and soil temperature outputs to calculate soil tension values for use in irrigation systems.  The firmware can be configured with wifi credentials so the user can access the board's web server which will display sensor values.  The firmware can also be configured with mqtt message server credentials allowing the board to transmit sensor data in formatted json via wifi to your main irrigation controller.  I am using the [SIP controller](https://github.com/Dan-in-CA/SIP) for my main irrigation system.
 
